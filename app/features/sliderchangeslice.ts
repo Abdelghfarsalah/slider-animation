@@ -4,7 +4,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const changeBackgroundSlice = createSlice({
   name: "changeBackground",
   initialState: {
-    background: "/images/download1.jpg",
+    background: "/images/spiderman-cartoon-chromebook-wallpaper.jpg",
     index:0
   },
   reducers: {

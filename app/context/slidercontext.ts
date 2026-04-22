@@ -10,7 +10,7 @@ const SliderContext=createContext([
 "/images/download5.jpg",
 "/images/download6.jpg",
 "/images/images.jpg",
-"/images/images2.jpg"
+"/images/images2.jpg",
 ]);
 
 export default SliderContext

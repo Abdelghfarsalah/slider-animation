@@ -9,15 +9,14 @@ export default function Home() {
   return (
 <Provider store={SliderStore}> <SliderContext.Provider
       value={[
-        "/images/download.jpg",
-        "/images/download1.jpg",
-        "/images/download2.jpg",
-        "/images/download3.jpg",
-        "/images/download4.jpg",
-        "/images/download5.jpg",
-        "/images/download6.jpg",
-        "/images/images.jpg",
-        "/images/images2.jpg"
+        "/images/spiderman-cartoon-chromebook-wallpaper.jpg",
+        "/images/wp3061378-marvel-infinity-war-wallpapers.jpg",
+        "/images/wp3802811-iron-spider-man-wallpapers.jpg",
+        "/images/wp3802822-iron-spider-man-wallpapers.jpg",
+        "/images/wp4140977-spider-man-4k-wallpapers.jpg",
+        "/images/wp4140983-spider-man-4k-wallpapers.jpg",
+        "/images/wp4140993-spider-man-4k-wallpapers.jpg",
+        "/images/wp12931040-superheroes-4k-pc-wallpapers.jpg",
       ]}
     >
      <Homecontent/>

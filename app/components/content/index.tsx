@@ -1,15 +1,16 @@
-import { MdArrowBackIosNew } from "react-icons/md";
-
-import { MdArrowForwardIos } from "react-icons/md";
+import { MdArrowBackIosNew, MdArrowForwardIos } from "react-icons/md";
+import { useSelector } from "react-redux";
 import "../style.css";
 export default function Content() {
+    const index=useSelector((state:{changeBackground: {index: number}})=>state.changeBackground.index)
+
     return (<div className="content">
     <div className="pageContent">
         <p>D E S I G N</p>
         <p style={{
             fontSize:"5vw",
             fontWeight:"800",
-        }}>Slider 05</p>
+        }}>Slider 0{index+1}</p>
         <p  className="contentText" style={{
             width:"30%",
             fontSize:"14px",
