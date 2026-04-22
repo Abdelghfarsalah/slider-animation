@@ -1,13 +1,13 @@
 "use client";
 
-import Content from "./components/content";
-import Header from "./components/header";
-import ImageSlider from "./components/imageslider";
-import SliderContext from "./context/slidercontext";
 
+import { Provider } from "react-redux";
+import Homecontent from "./components/Home";
+import SliderContext from "./context/slidercontext";
+import { SliderStore } from "./store";
 export default function Home() {
   return (
-    <SliderContext.Provider
+<Provider store={SliderStore}> <SliderContext.Provider
       value={[
         "/images/download.jpg",
         "/images/download1.jpg",
@@ -20,11 +20,8 @@ export default function Home() {
         "/images/images2.jpg"
       ]}
     >
-      <div className="home">
-        <Header />
-        <Content />
-        <ImageSlider />
-      </div>
-    </SliderContext.Provider>
+     <Homecontent/>
+    </SliderContext.Provider> </Provider>
+    
   );
 }
