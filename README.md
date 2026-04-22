@@ -205,6 +205,10 @@ No other changes needed — Redux and the slider pick it up automatically.
 
 <div align="center">
 
+## 🌐 Live Demo
+
+🔗 [Open Project](https://slider-animation-three.vercel.app)
+
 Built with ❤️ &nbsp;·&nbsp; Next.js &nbsp;·&nbsp; Redux Toolkit &nbsp;·&nbsp; TypeScript
 
 </div>
