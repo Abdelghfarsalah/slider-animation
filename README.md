@@ -30,7 +30,7 @@ A visually immersive **full-screen image slider** featuring Spider-Man wallpaper
 
 | View 1 | View 2 |
 |:---:|:---:|
-| ![Preview 1](./images/Screenshot-1.png) | ![Preview 2](./images/Screenshot-2.png) |
+| ![Preview 1](./public/images/Screenshot-1.png) | ![Preview 2](./images/Screenshot-2.png) |
 
 | View 3 | View 4 |
 |:---:|:---:|
