@@ -42,7 +42,11 @@ header{
     margin-top: 20vh;
 }
 
-
+.contentText{
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .sliderbu{
     display: flex;
     gap: 5px;
@@ -50,7 +54,7 @@ header{
 }
 
 .sliderbu div{
-    width: 3vw;
+    width: 40px;
     height: 40px;
     background-color: rgb(255, 255, 255,0.3);
     color: white;
@@ -75,4 +79,23 @@ header{
     border-radius: 10px;
     margin-right: 10px;
     ;
+}
+
+
+@media (max-width:650px) {
+    .actions{
+        display: none;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width:650px) {
+    .menu{
+        display: none;
+        cursor: pointer;
+    }
 }

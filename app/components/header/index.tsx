@@ -1,6 +1,13 @@
-import { CiSearch } from "react-icons/ci";
+import { FaSearch } from "react-icons/fa";
+
+import { TiThMenu } from "react-icons/ti";
+
+import { useDispatch, useSelector } from "react-redux";
+import { open } from "../../features/drawerSlice";
 import "../style.css";
 export default function Header() {
+        const dispatch=useDispatch()
+        const state=useSelector((state:boolean)=>state.drawer);
     return (<>
     <header >
         <div className="title">Slider Animation</div>
@@ -10,9 +17,19 @@ export default function Header() {
             <div className="contact">Contact</div>
             <div className="about">About</div>
         </div>
-        <div className="SearchIcon">
-            <CiSearch size={20}  fontWeight={900}/>
+        <div className="SearchIcon" style={{display:"flex",
+        alignItems:"center",
+            gap:"10px",
+            justifyContent:"center",
+        }}>
+        <FaSearch />
+            <div className="menu" onClick={()=>{
+                    dispatch(open());
+                  }}>
+            <TiThMenu  />
+            </div>
         </div>
+        
     </header>
     </>)
     
