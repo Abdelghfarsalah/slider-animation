@@ -30,11 +30,11 @@ A visually immersive **full-screen image slider** featuring Spider-Man wallpaper
 
 | View 1 | View 2 |
 |:---:|:---:|
-| ![Preview 1](./public/images/Screenshot 2026-04-22 173315.png) | ![Preview 2](./public/images/Screenshot 2026-04-22 173332.png) |
+| ![Preview 1](./images/Screenshot-1.png) | ![Preview 2](./images/Screenshot-2.png) |
 
 | View 3 | View 4 |
 |:---:|:---:|
-| ![Preview 3](./public/images/Screenshot 2026-04-22 173345.png) | ![Preview 4](./public/images/Screenshot 2026-04-22 173358.png) |
+| ![Preview 3](./images/Screenshot-4.png) | ![Preview 4](./images/Screenshot-4.png) |
 
 ---
 
