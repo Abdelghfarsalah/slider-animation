@@ -1,6 +1,7 @@
+"use client"
 import { createContext } from "react";
 
-const sliderContext=createContext([
+const SliderContext=createContext([
 "/images/download.jpg",
 "/images/download1.jpg",
 "/images/download2.jpg",
@@ -12,4 +13,4 @@ const sliderContext=createContext([
 "/images/images2.jpg"
 ]);
 
-export default sliderContext
+export default SliderContext
