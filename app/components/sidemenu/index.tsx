@@ -1,9 +1,10 @@
 import { IoCloseSharp } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
 import { close } from "../../features/drawerSlice";
+import { RootState } from "@reduxjs/toolkit/query/react";
 export default function Sidemenu() {
     const dispatch=useDispatch()
-    const state=useSelector((state:boolean)=>state.drawer.open);
+    const state = useSelector((state: { drawer: { open: boolean } }) => state.drawer.open);
   return (
     <div
       className="sidemenu"

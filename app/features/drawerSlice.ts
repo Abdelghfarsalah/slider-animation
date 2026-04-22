@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 
 export const drawerSlice = createSlice({
-  name: "drawerSlice",
+  name: "drawer",
   initialState:{
     open:false
   },

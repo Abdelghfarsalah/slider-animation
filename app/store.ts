@@ -7,3 +7,6 @@ export const SliderStore=configureStore({
         "drawer":drawerSlice
     }
 })
+
+
+export type RootState = ReturnType<typeof SliderStore.getState>;

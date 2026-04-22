@@ -7,7 +7,7 @@ import { open } from "../../features/drawerSlice";
 import "../style.css";
 export default function Header() {
         const dispatch=useDispatch()
-        const state=useSelector((state:boolean)=>state.drawer);
+        const state = useSelector((state: { drawer: { open: boolean } }) => state.drawer.open);
     return (<>
     <header >
         <div className="title">Slider Animation</div>
